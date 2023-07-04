@@ -1,0 +1,70 @@
+@charset "utf-8";
+/* CSS Document */
+.home-content{
+	width:100%;
+	min-height: 1000px;
+	
+}
+.top-color-band{
+	background-color: var(--light1);
+	height: 70px;
+	width: 100%;
+}
+
+.name-motto{
+	background-color: var(--base);
+	margin-top: -60px;
+	margin-left: auto;
+	margin-right: auto;
+	height:120px;
+	width:800px;
+	border: 3px solid var(--contrast2);
+	border-radius: 10px;
+	
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.name-motto .name{
+	text-transform: uppercase;
+	font-size: 44px;
+}
+
+.name-motto .motto{
+	font-size: 20px;
+	text-align: center;	
+}
+
+.choices{
+	display:flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	width:100%;
+}
+
+.choice{
+	border: 3px solid var(--contrast2);
+	border-radius: 10px;
+	width:250px;
+	height: 130px;
+	margin-left: 25px;
+	margin-right:25px;
+	background-color: var(--base);
+	margin-top: 50px;
+	
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	
+	padding-top: 10px;
+}
+
+.choice .title{
+	font-size: 20px;
+	margin-left: 10px;
+}
+.choice .description{
+	margin: 10px 10px 10px 10px;
+}
