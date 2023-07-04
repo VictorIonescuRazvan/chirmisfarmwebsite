@@ -1,0 +1,10 @@
+@charset "utf-8";
+/* CSS Document */
+
+.blog{
+	height:30vh;
+	width:100%;
+	background-color:red;
+	margin-top:20px;
+	/*click si expand*/
+}

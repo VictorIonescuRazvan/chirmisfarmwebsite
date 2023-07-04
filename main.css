@@ -12,10 +12,10 @@ body{
 
 :root{
 	--base: #FEFAE0;
-	--light1: #DDA15E;
-	--contrast1: #BC6C25;
-	--light2: #606C38;
-	--contrast2: #283618;
+	--light1: #C4D7B2;
+	--contrast1: #A0C49D;
+	--light2: #F7FFE5;
+	--contrast2: #E1ECC8;
 }
 
 .mid-band{
